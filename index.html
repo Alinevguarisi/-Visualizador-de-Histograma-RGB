@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histograma RGB</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .chart {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Histograma RGB da Imagem</h1>
+    <input type="file" id="inputImage" accept="image/*">
+    
+    <div class="chart" id="chartRed">
+        <h2>Canal Vermelho</h2>
+        <canvas id="histogramRed" width="600" height="300"></canvas>
+    </div>
+    
+    <div class="chart" id="chartGreen">
+        <h2>Canal Verde</h2>
+        <canvas id="histogramGreen" width="600" height="300"></canvas>
+    </div>
+    
+    <div class="chart" id="chartBlue">
+        <h2>Canal Azul</h2>
+        <canvas id="histogramBlue" width="600" height="300"></canvas>
+    </div>
+
+    <div class="chart" id="chartGray">
+        <h2>Escala de Cinza</h2>
+        <canvas id="histogramGray" width="600" height="300"></canvas>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
