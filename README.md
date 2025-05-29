@@ -16,4 +16,4 @@ Fornecer uma ferramenta simples para análise da distribuição de cores de uma 
 
 1. Clone ou baixe o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone (https://github.com/Alinevguarisi/-Visualizador-de-Histograma-RGB.git)
